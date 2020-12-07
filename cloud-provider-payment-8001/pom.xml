@@ -12,10 +12,10 @@
     <artifactId>cloud-provider-payment-8001</artifactId>
 
     <dependencies>
-        <!--包含了sleuth+zipkin;sleuth链路监控展现,P94所需依赖-->
+        <!--   hystrix     -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
         </dependency>
 
         <!--   引入eureka客户端     -->

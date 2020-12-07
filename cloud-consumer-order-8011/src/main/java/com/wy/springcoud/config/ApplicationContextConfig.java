@@ -10,11 +10,11 @@ import org.springframework.web.client.RestTemplate;
  * @description 消费者只关心微服务名称.
  * @date 2020-09-14 16:54
  */
-@Configuration
+//@Configuration
 public class ApplicationContextConfig {
-    @Bean
-    @LoadBalanced
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
+//    @Bean
+//    @LoadBalanced
+//    public RestTemplate restTemplate() {
+//        return new RestTemplate();
+//    }
 }

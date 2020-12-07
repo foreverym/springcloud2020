@@ -13,6 +13,7 @@
         <module>cloud-eureka-server-7001</module>
         <module>cloud-consumer-order-8011</module>
         <module>cloud-provider-payment-8002</module>
+        <module>cloud-gateway-8021</module>
     </modules>
     <packaging>pom</packaging>
 
